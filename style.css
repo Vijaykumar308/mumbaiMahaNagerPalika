@@ -1,0 +1,144 @@
+*{margin: 0;padding: 0; box-sizing: border-box; font-family:Arial;}
+header{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+/*head means only header part*/
+header #head{
+	width: 100%;
+	height: 156px;
+	background-color: rgb(21,51,95);
+	background: #152F55;
+	border-top: 15px solid brown;
+	display: flex;
+}
+/*logo means only header part*/
+header #head #logo{
+	padding-left:106px; 
+	padding-top: 10px;
+}
+header #head #logo img{
+	width: 320px;
+	height: 50px;
+}
+header #head #logo h2{
+	color:#fff;
+	font-weight: 700;
+	font-size: 26px;
+}
+ /*logo part complete*/
+ /*Empolyee style start*/
+header #head .login{
+    margin-top: 54px;
+    color:#fff;
+    padding: 5px 7px;
+    background-color: #DC7633;
+    text-transform: uppercase;
+    position: absolute;
+    right: 23px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    width: 253px;
+}/*Empolyee style End*/
+header nav ul{
+	background-color: black;
+	color:#fff;
+	list-style: none;
+	display: flex;
+	position: absolute;
+	top: 17%;
+	left: 0;
+	width: 100%;
+	/*justify-content: space-between;*/
+	padding: 10px;
+}
+header nav ul li{
+	border-left: 1px solid #fff;
+	padding: 0px 13px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	cursor: pointer;
+}
+header .mainheading h1{
+	text-transform: uppercase;
+	background-color: rgba(76, 85, 90,.9);
+	text-align: center;
+	padding: 8px;
+	font-weight: 500;
+}
+header .main{
+	display: flex;
+	background-color: red;
+	height: 68vh;
+}
+header .main #sidebar{
+	background-color: #80CDDD;
+	width: 18%;
+}
+header .main #sidebar h5{
+	background-color: rgb(21,51,95);
+	padding: 10px 10px;
+	font-size: 16px;
+	color: #fff;
+}
+header .main #sidebar p{
+	color: rgba(0,0,0,.6);
+	padding:3px 8px;
+	cursor: pointer;
+}
+header .allcontant{
+	background-color:#fff;
+	width: 100%;
+}
+header .allcontant #Contant{
+	width: 90%;
+	height:370px; 
+	background-color: rgba(35,81,98,1);
+	margin: 30px 40px;
+}
+header .allcontant #Contant h1{
+	background-color: #15335A;
+	padding-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	color: #fff;
+}
+header .allcontant #Contant table{
+	margin:30px 10px;
+
+}
+header .allcontant #Contant table td{
+	/*background-color: #15335A;*/
+	padding: 10px 7px;
+	color:#fff;
+	text-transform: uppercase;
+}
+header .allcontant #Contant table td input{
+	background: rgba(68,155,187,.5);
+	width: 14.5em;
+	border:none;
+	outline: none;
+	text-transform: uppercase;
+	padding: 2px 10px; 
+	/*font-family: Arial;*/
+	font-size: 15px;
+	font-weight: bold;
+}
+header .allcontant #Contant .btns{
+	/*background-color: red;*/
+	text-align: center;
+}
+header .allcontant #Contant .btns input[type="submit"]{
+	padding: 2px 50px; 
+	font-size: 18px;
+	/*text-align: center;*/
+	background: rgba(68,155,187,.5);
+	border:none;
+	text-transform: uppercase;
+	margin: 0px 40px;
+	cursor: pointer;
+}
